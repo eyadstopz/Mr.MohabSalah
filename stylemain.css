@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #2c2c2c, #1a1a1a);
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+nav {
+    position: relative;
+    height: 4em;
+    width: 100%;
+    background-color: #111111;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navmm {
+    display: flex;
+    gap: 5.3em;
+}
+
+.nav1, .nav2 {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.67em 1.33em;
+    border: 0.13em solid #ffffff;
+    border-radius: 0.33em;
+    font-family: 'Orbitron', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.nav1:hover, .nav2:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: 0 0 0.67em #ffffff, 0 0 1.3em #ffffff, 0 0 2em #ffffff;
+}
+
+header {
+    background: linear-gradient(135deg, #1a1a1a, #2c2c2c, #1a1a1a);
+    color: #ffffff;
+    text-align: center;
+    padding: 3.33em 1.3em;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+header .drinfo img {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 0.33em solid #ffffff;
+    box-shadow: 0 0 10px #ffffff, 0 0 1.3em #ffffff, 0 0 30px #ffffff;
+}
+
+header h2 {
+    margin-top: 1.3em;
+    font-size: 2.5em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.drinfo {
+    border: 2px solid #444444;
+    border-radius: 2.67em;
+    padding: 1.3em;
+    margin: 1.3em;
+    box-shadow: 0 0 10px #444444, 0 0 1.3em #444444, 0 0 2em #444444;
+}
+
+.team {
+    border: 1px solid #444444;
+    border-radius: 2.67em;
+    width: 68%;
+    height: 30%;
+    margin: 2% auto;
+    text-align: center;
+    padding: 1.3em;
+    box-shadow: 0 0 10px #444444, 0 0 1.3em #444444, 0 0 2em #444444;
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.assistants-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 1.3em;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+}
+
+.assistants {
+    justify-content: center;
+    gap: 1.3em;
+    margin-top: 1.3em;
+}
+
+.assistants div {
+    border: 2px solid #444444;
+    border-radius: 2.67em;
+    padding: 1.3em;
+    background-color: #333333;
+    color: #ffffff;
+}
